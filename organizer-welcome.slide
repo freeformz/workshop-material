@@ -1,22 +1,22 @@
 GoBridge Workshop - Welcome!
 Thank you for coming!
 
-[date of workshop here]
+2016/02/27 & 28
 
-[organizer name here]
-[organizer job title - company]
-[email - optional]
-[organizer's website]
-@[organizer twitter handle here]
+Edward Muller
+Heroku - Go Language Engineer
+edward@heroku.com
+https://heroku.com
+@freeformz
 
 
-* Welcome to the GoBridge [name of the course] workshop!
+* Welcome to the GoBridge Building Web Apps With Go workshop!
 .image images/gopher-brown.jpg _ 300
 .caption _Gopher_ by [[http://www.reneefrench.com][Renée French]]
 
 
 * Backchannel for this workshop
-`#gobridge-workshop` channel on Gophers Slack.
+`#gobridge-sf-201602` channel on Gophers Slack.
 
 Post any question you have, *starting* *now!*
 
@@ -41,17 +41,20 @@ A reminder that we follow Go/GoBridge Code of Conduct. It can be found here:
 
 * We are here to help you
 
-Organizers
-- ...
-- ...
+Organizers & Teacher
+- Edward Muller
 
-Teacher(s)
-- ...
-- ...
-
-TAs
-- ..
-- ..
+TAs & Volunteers
+- Akansh Murthy
+- Carine Todmia
+- Elliot Lee
+- Hari Khalsa
+- Ines Sombra
+- Kristina McElveen
+- MarChe Jame
+- Perry Chow
+- Sascha "Faun" Winter
+- Ted M Young
 
 
 * Don't be shy!
@@ -75,6 +78,10 @@ GoBridge is dedicated to work so that the makers of technology are reflective of
   cultures. Diversity is strength. Diversity is longevity.
 .caption Andrew Gerrand - GopherCon 2015 closing keynote
 
+
+* Why am I here?
+
+.image images/mia.jpg _ 600
 
 * It's a community project!
 
@@ -104,19 +111,27 @@ GoBridge is dedicated to work so that the makers of technology are reflective of
 
 .link http://www.womenwhogo.org http://www.womenwhogo.org
 
+* Rough Schedule 
+
+- Saturday
+  - 9-9:30am: Check-in, coffee, bagels
+  - 9:30-10am: Opening presentation
+  - 10am-12:30pm: Class!
+  - 12:30-1:30pm: Lunch
+  - 1:30pm-5:00pm: Class! (with a break sometime mid-afternoon)
+
+- Sunday
+  - 9-9:30am: Check-in, coffee, bagels
+  - 9:30-12:30pm: Class! (with a break sometime mid-morning)
+  - 12:30-1:30pm: Lunch
+  - 1:30pm-5:00pm: Class! (with a break sometime mid-afternoon)
+
 
 * Goals of the workshop
 
-Today you will learn...
-
-
-* What is Go?
-Simple, Poetic, Pithy
-
-So much so, that it inspired an ever increasing list of proverbs:
-
-.link http://go-proverbs.github.io http://go-proverbs.github.io
-
+  * Have fun.
+  * Imbue a basic familiarity with Go.
+  * Learn the basics to writing web apps in Go.
 
 * Before we start...
 Please thank our awesome sponsors!
@@ -132,11 +147,93 @@ Please thank our awesome sponsors!
 
 .image images/sagan.jpg _ 200
 
-* Intel
+* Heroku
 
-  Intel designs and builds the essential technologies
-  that serve as the foundation for the world's computing devices.
+  Heroku, an industry pioneer in platform as a service (PaaS), 
+  enables developers to code -> commit -> push -> run 
+  applications easily. With Heroku you can focus on your 
+  app, not your infrastructure.
 
-.link http://intel.com http://intel.com
+.link https://heroku.com https://heroku.com
 
-.image images/intel.png _ 200
+.image images/heroku.png _ 600
+
+* What is Go?
+
+Simple, Poetic, Pithy
+
+So much so, that it inspired an ever increasing list of proverbs:
+
+.link http://go-proverbs.github.io http://go-proverbs.github.io
+  
+* History
+
+- Starts at Google in 2007 (Griesmer, Pike, Thompson)
+- 20% Project
+- Open Sourced 11/2009
+- v1 released in March 2012
+  
+* Install
+
+- golang.org/doc/install
+  
+* Test your Go Installation
+
+Put this code into *hello.go*
+
+.play code/hello.go
+
+Run the program
+
+  $ go run hello.go
+
+* The go Tool
+
+The *go* tool is the standard tool for building, testing and installing Go programs.
+
+Compile and run *hello.go*:
+
+  $ go run hello.go
+
+Run zip tests: 
+
+  $ go test archive/zip
+
+Build and format the files in the current directory:
+
+  $ go build
+  $ go fmt
+  
+Fetch and install net/context:
+
+  $ go get golang.org/x/net/context
+  
+* Workspaces
+
+The go tool derives build instructions from Go source code
+
+There's no need to write and maintain build scripts
+
+For this to work, some prescribed directory structure, known as a workspace, is required.
+
+  workspace/
+    bin # executable
+    src # source code
+    pkg # compiled object files
+    
+ * Create a workspace
+ 
+   $ mkdir -p ~/go/src
+   $ export GOPATH=~/go
+   $ export PATH=$PATH:$GOPATH/bin
+   $ mkdir -p $GOPATH/src/github.com/<user>/<project>
+   
+   $ go install github.com/<user>/<project>
+     
+* Material
+
+.link https://tour.golang.org/welcome/1 https://tour.golang.org/welcome/1
+
+.link https://learnxinyminutes.com/docs/go/ https://learnxinyminutes.com/docs/go/
+
+.link https://www.gitbook.com/book/gobridge/building-web-apps-with-go/details https://www.gitbook.com/book/gobridge/building-web-apps-with-go/details

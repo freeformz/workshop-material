@@ -1,16 +1,16 @@
 GoBridge Workshop - Closing Notes
 Thank you for coming!
 
-[date of workshop here]
+2016/02/27 & 28
 
-[organizer name here]
-[organizer job title - company]
-[email - optional]
-[organizer's website]
-@[organizer twitter handle here]
+Edward Muller
+Heroku - Go Language Engineer
+edward@heroku.com
+https://heroku.com
+@freeformz
 
 
-* You have completed the GoBridge [name of the course] workshop!
+* You have completed the GoBridge Building Web Apps With Go workshop!
 Congratulations!
 
 .image images/gopher-brown.jpg _ 300
@@ -27,31 +27,34 @@ Congratulations!
 
 .image images/sagan.jpg _ 200
 
-* Intel
+* Heroku
 
-  Intel designs and builds the essential technologies
-  that serve as the foundation for the world's computing devices.
+  Heroku, a Salesforce company and industry pioneer in platform 
+  as a service (PaaS), enables developers to build and run 
+  applications entirely in the cloud, without the need to 
+  purchase or maintain any servers or software. With Heroku 
+  you can focus on your app, not your infrastructure.
 
-.link http://intel.com http://intel.com
-
-.image images/intel.png _ 200
-
+.image images/heroku.png _ 600
 
 * Thank you all volunteers!
 
 List names of all volunteers, and thank them.
 
-Organizers
-- ...
-- ...
+Organizers & Teacher
+- Edward Muller
 
-Teacher(s)
-- ...
-- ...
-
-TAs
-- ..
-- ..
+TAs & Volunteers
+- Akansh Murthy
+- Carine Todmia
+- Elliot Lee
+- Hari Khalsa
+- Ines Sombra
+- Kristina McElveen
+- MarChe Jame
+- Perry Chow
+- Sascha "Faun" Winter
+- Ted M Young
 
 
 * Use your credentials
@@ -59,20 +62,25 @@ TAs
 Go ahead and add your experience to your resume and/or linkedIn:
 
 *GoBridge*
-December 2015 - now
-Volunteer (Teacher, Event Organizer)
+February 2016 - now
+Volunteer (Teacher, Event Organizer, Student)
 
 
 * Celebrate!
 
-- Info about after-party, if any.
+- After Party!
 
-- Include parking info and directions.
+Heroku
+650 7th St.
 
+Walk: Market -> 3rd -> Folsom -> 7th
+Muni: 10 (or 12) lines
+Ride Share: Lyft
+Parking: May be on the street parking near Heroku.
 
 * Recap
 
-- List top 3 things that were taught.
+- **List top 3 things that were taught.
 
 - Would students like to share what they learned?
 
